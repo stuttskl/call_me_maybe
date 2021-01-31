@@ -15,7 +15,7 @@ class MainTabController extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3,
+      length: screens.length,
       initialIndex: 0,
       child: Scaffold(
         appBar: AppBar(

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../components/biz_card.dart';
+import '../components/button.dart';
 
 class BusinessCardScreen extends StatelessWidget {
   @override
@@ -9,7 +10,9 @@ class BusinessCardScreen extends StatelessWidget {
         padding: EdgeInsets.all(16.0),
         child: Row(
           mainAxisAlignment: MainAxisAlignment.center,
-          children: [BusinessCard()],
+          children: [
+            BusinessCard(),
+          ],
         )
       )
     );

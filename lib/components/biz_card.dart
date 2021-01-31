@@ -12,7 +12,8 @@ class BusinessCard extends StatelessWidget {
         title: 'CEO',
         company: 'Waystar Royco',
         phone: '555-555-55555',
-        website: 'website.com'
+        website: 'waystar.com',
+        email: 'kendall@waystar.com'
       )
     );
   }
