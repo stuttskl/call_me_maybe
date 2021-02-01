@@ -35,14 +35,14 @@ class ContactCard extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Padding(
-              padding: EdgeInsets.all(16.0), 
+              padding: EdgeInsets.all(8.0), 
               child: Column(children: [
                 TextLink(link: this.website),
                 ],
               )
             ),
             Padding(
-              padding: EdgeInsets.all(16.0), 
+              padding: EdgeInsets.all(8.0), 
               child: Column(children: [
                 TextLink(link: this.email),
                 ],

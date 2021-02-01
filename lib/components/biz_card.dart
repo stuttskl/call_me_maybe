@@ -13,7 +13,7 @@ class BusinessCard extends StatelessWidget {
         company: 'Waystar Royco',
         phone: '555-555-55555',
         website: 'waystar.com',
-        email: 'kendall@waystar.com'
+        email: 'kendall@royco.com'
       )
     );
   }
