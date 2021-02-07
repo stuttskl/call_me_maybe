@@ -14,29 +14,25 @@ class ResumeEntry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    double c_width = MediaQuery.of(context).size.width * 0.8;
-
     return Container(
-        // Another fixed-height child.
-        color: const Color(0xff008000), // Green
-        // height: 120.0,
-        // width: c_width,
-        alignment: Alignment.center,
+        padding: EdgeInsets.all(8.0),
         child: Column(
           children: [
             Row(
-              children: [Text('$jobTitle')],
+              children: [
+                Text('$jobTitle', style: TextStyle(fontWeight: FontWeight.bold))
+              ],
             ),
             Row(
               children: [
                 Expanded(
-                  child: Text('$companyName', textAlign: TextAlign.center),
+                  child: Text('$companyName', textAlign: TextAlign.left),
                 ),
                 Expanded(
                   child: Text('$jobDates', textAlign: TextAlign.center),
                 ),
                 Expanded(
-                  child: Text('$location', textAlign: TextAlign.center),
+                  child: Text('$location', textAlign: TextAlign.right),
                 ),
               ],
             ),
@@ -47,7 +43,9 @@ class ResumeEntry extends StatelessWidget {
                 ),
               ],
             ),
-          ],
-        ));
+          Divider(color: Colors.black)
+        ],
+      )
+    );
   }
 }
