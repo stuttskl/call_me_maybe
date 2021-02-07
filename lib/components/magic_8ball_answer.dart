@@ -14,10 +14,12 @@ class _AnswerState extends State<Answer> {
       body: Center(
         child: Column(
           children: [
+            Container(child: Text('Call Me...Maybe?')),
+            GestureDetector(
+              onTap: () => changeText(),
+              child: Text('Ask a question ... tap for the answer.')
+            ),
             Container(child: Text('$placeholder')),
-            RaisedButton(
-              onPressed: () => changeText(),
-            )
           ],
         ),
       )
