@@ -4,7 +4,15 @@ class QuestionScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child: Text('Buisness Card'),
+      child: GestureDetector(
+        onTap: () {
+          _fetchAnswer();
+        }
+      )  
     );
   }
+}
+
+_fetchAnswer() {
+  Text("yo");
 }

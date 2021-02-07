@@ -37,14 +37,14 @@ class ContactCard extends StatelessWidget {
             Padding(
               padding: EdgeInsets.all(8.0), 
               child: Column(children: [
-                TextLink(link: this.website),
+                TextLink(text: this.website, link: 'https://www.imdb.com/title/tt7660850/'),
                 ],
               )
             ),
             Padding(
               padding: EdgeInsets.all(8.0), 
               child: Column(children: [
-                TextLink(link: this.email),
+                TextLink(text: this.email, link: 'https://www.google.com'),
                 ],
               )
             ),
