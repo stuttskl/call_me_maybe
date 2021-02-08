@@ -13,13 +13,16 @@ class _AnswerState extends State<Answer> {
     return Scaffold(
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Container(child: Text('Call Me...Maybe?')),
+            Container(
+              padding: EdgeInsets.all(16.0),
+              child: Text('Call Me...Maybe?', style: TextStyle(fontSize: 30))),
             GestureDetector(
               onTap: () => changeText(),
-              child: Text('Ask a question ... tap for the answer.')
+              child: Text('Ask a question ... tap for the answer.', style: TextStyle(fontSize: 18))
             ),
-            Container(child: Text('$placeholder')),
+            Container(padding: EdgeInsets.all(16.0), child: Text('$placeholder', style: TextStyle(fontSize: 30))),
           ],
         ),
       )

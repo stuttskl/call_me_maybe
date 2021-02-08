@@ -4,8 +4,8 @@ import 'contact_card.dart';
 class BusinessCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: EdgeInsets.all(16.0),
+    return SafeArea(
+      left: true, right: true, top: true, bottom: true,
       child: ContactCard(
         img: 'assests/kendall.jpg',
         name: 'Kendall Roy',
