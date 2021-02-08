@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'contact_info.dart';
-import 'text_button.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class ContactCard extends StatelessWidget {
@@ -22,31 +21,31 @@ class ContactCard extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-      Image.asset(
-        this.img,
-        width: 100,
-        height: 100,
-      ),
-      Text(this.name, style: Theme.of(context).textTheme.headline5),
-      ContactInfo(contact: this.title),
-      ContactInfo(contact: this.company),
-      TextButton(
-        child: Text(this.phone),
-        onPressed: _launchPhone),
+        Image.asset(
+          this.img,
+          width: 100,
+          height: 100,
+        ),
+        Text(this.name, style: Theme.of(context).textTheme.headline2),
+        ContactInfo(contact: this.title),
+        ContactInfo(contact: this.company),
+        TextButton(
+          child: Text(this.phone),
+          onPressed: _launchPhone
+        ),
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             Column(
               children: [
-                TextButton(
-                  child: Text(this.website), onPressed: _launchWebsite),
+                TextButton(child: Text(this.website), onPressed: _launchWebsite),
               ],
             ),
             Column(
-                children: [
-                  ContactInfo(contact: this.email),
-                ],
-              )
+              children: [
+                ContactInfo(contact: this.email),
+              ],
+            )
           ],
         ),
     ]);
