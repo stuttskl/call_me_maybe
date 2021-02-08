@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import '../components/magic_8ball_answer.dart';
-import '../models/random_answer.dart';
-
 
 class QuestionScreen extends StatelessWidget {
   @override

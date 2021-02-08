@@ -53,7 +53,7 @@ class ContactCard extends StatelessWidget {
 }
 
 _launchWebsite() async {
-  const url = 'https://www.imdb.com/title/tt7660850/';
+  const url = 'https://www.e-corp-usa.com/about.html';
   if (await canLaunch(url)) {
     await launch(url);
   } else {
@@ -62,7 +62,7 @@ _launchWebsite() async {
 }
 
 _launchPhone() async {
-  final Uri _phoneLaunchUri = Uri(scheme: 'sms', path: ':2062902755');
+  final Uri _phoneLaunchUri = Uri(scheme: 'sms', path: ':5555555555');
   if (await canLaunch(_phoneLaunchUri.toString())) {
     await launch(_phoneLaunchUri.toString());
   } else {

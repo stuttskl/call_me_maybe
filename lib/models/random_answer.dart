@@ -12,7 +12,7 @@ class RandomAnswer {
     "Why are you asking me?"
   ];
 
-  String _randomAnswer = "";
+  String _randomAnswer = "...";
 
   final int numberOfAnswers;
   final Random random = Random();

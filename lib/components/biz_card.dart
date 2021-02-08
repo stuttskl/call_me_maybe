@@ -7,13 +7,13 @@ class BusinessCard extends StatelessWidget {
     return SafeArea(
       left: true, right: true, top: true, bottom: true,
       child: ContactCard(
-        img: 'assests/kendall.jpg',
-        name: 'Kendall Roy',
-        title: 'CEO',
-        company: 'Waystar Royco',
-        phone: '555-555-55555',
-        website: 'waystar.com',
-        email: 'kendall@royco.com'
+        img: 'assests/mr_robot.jpg',
+        name: 'Elliot Alderson',
+        title: 'Cybersecurity Engineer',
+        company: 'E-Corp',
+        phone: '(212) 555-0179',
+        website: 'ecorp.com',
+        email: 'elliot@ecorp.com'
       )
     );
   }
