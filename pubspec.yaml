@@ -24,8 +24,7 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/data.json
-    - assets/sample.json
+    - assets/work_history.json
     - assets/user_data.json
     - assets/mr_robot.jpg
 
