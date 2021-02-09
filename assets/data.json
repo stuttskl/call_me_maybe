@@ -1,0 +1,46 @@
+{
+  "name": "Elliot Alderson",
+  "title": "Cybersecurity Engineer",
+  "company": "Allsafe Cybersecurity",
+  "number": "5555555555", 
+  "email": "elliot@allsafe.com",
+  "website": "ecorp.com",
+  "work_history": [
+      {
+        "title": "Mercury",
+        "company": "Company",
+        "dates": "2016 - Present",
+        "description": "A very hot planet, closest to the sun."
+      },
+      {
+        "title": "Mercury",
+        "company": "Company",
+        "dates": "2016 - Present",
+        "description": "A very hot planet, closest to the sun."
+      },
+      {
+        "title": "Mercury",
+        "company": "Company",
+        "dates": "2016 - Present",
+        "description": "A very hot planet, closest to the sun."
+      },
+      {
+        "title": "Mercury",
+        "company": "Company",
+        "dates": "2016 - Present",
+        "description": "A very hot planet, closest to the sun."
+      },
+      {
+        "title": "Mercury",
+        "company": "Company",
+        "dates": "2016 - Present",
+        "description": "A very hot planet, closest to the sun."
+      },
+      {
+        "title": "Mercury",
+        "company": "Company",
+        "dates": "2016 - Present",
+        "description": "A very hot planet, closest to the sun."
+      }
+  ]
+}

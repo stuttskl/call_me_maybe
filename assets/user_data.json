@@ -1,0 +1,13 @@
+{
+  "user": [
+    {
+      "img": "assets/mr_robot.jpg",
+      "name": "Elliot Alderson",
+      "title": "Cybersecurity Engineer",
+      "company": "Allsafe Cybersecurity",
+      "number": "(212) 555-0179", 
+      "email": "elliot@allsafe.com",
+      "website": "ecorp.com"
+    }
+  ]
+}

@@ -24,8 +24,10 @@ flutter:
   uses-material-design: true
 
   assets:
-    - kendall.jpg
-    - mr_robot.jpg
+    - assets/data.json
+    - assets/sample.json
+    - assets/user_data.json
+    - assets/mr_robot.jpg
 
   fonts:
     - family: RobotoMono
